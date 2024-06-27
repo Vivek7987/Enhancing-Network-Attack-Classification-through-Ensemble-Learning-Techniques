@@ -1,5 +1,22 @@
 # Enhancing-Network-Attack-Classification-through-Ensemble-Learning-Techniques
 
-<h3>The sample of the data :</h3>
-![image](https://github.com/Vivek7987/Enhancing-Network-Attack-Classification-through-Ensemble-Learning-Techniques/assets/111482462/7e0db396-5dd5-426c-a7c9-2a711c4c18da)
+import nbformat
 
+# Load the uploaded notebook file
+notebook_path = '/mnt/data/proposed.ipynb'
+with open(notebook_path, 'r') as file:
+    notebook_content = nbformat.read(file, as_version=4)
+
+# Extract the title, description, and other details from the notebook's markdown cells
+title = ""
+description = ""
+for cell in notebook_content.cells:
+    if cell.cell_type == 'markdown':
+        lines = cell.source.split('\n')
+        for line in lines:
+            if line.startswith('# '):
+                title = line[2:]
+            elif line:
+                description += line + '\n'
+
+title, description

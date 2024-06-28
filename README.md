@@ -7,7 +7,9 @@ Collaborators: Dr. Umang Garg, Assistant Professor, Amity University Madhya Prad
 Title and Description    
 Acknowledgements    
 Demo   
-Deployment Documentation Environment Variables FAQ Features Feedback Github Profile - About Me Github Profile - Introduction Github Profile - Links Github Profile - Other Github Profile - Skills Installation Lessons License Logo Optimizations Related Roadmap Run Locally Screenshots Support Tech Running Tests Usage/Examples Used By
+Documentation    
+Installation      
+
 
 # Title and Description
 This project aims to enhance network attack classification through the application of ensemble learning techniques on the UNB CIC IOT 2023 Dataset.       https://www.kaggle.com/datasets/madhavmalhotra/unb-cic-iot-dataset         
